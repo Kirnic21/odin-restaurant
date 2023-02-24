@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url(Be-You.ttf);
+  font-weight: 60;
+  font-style: normal;
+}
+@font-face{
+font-family: "Scarlet";
+src: url(Scarlet-Font.ttf);
+font-weight: bold;
+}
+#header{
+    height:80px;
+    color:red;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #27272a;
+    font-family:'MyFont';
+    font-size:60px;
+    filter: brightness(160%);
+}
+body, html {
+    height: 100%;
+  }
+    #sidenav {
+      height: 100%; 
+      width: 160px; 
+      position: fixed; 
+      z-index: 1; 
+      top: 0; 
+      left: 0;
+      background-color:#27272a; 
+      overflow-x: hidden; 
+      padding-top: 20px;
+  }
+  #sidebar-buttons{
+    list-style-type:none;
+    color:red;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #content {
+    /* The image used */
+    background-image: url("CafeTouhou.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:brightness(70%)
+  }
+#description{
+    display:flex;
+    font-family:"Scarlet";
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid green;
+}
+#menu{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+
+}
+#menu-coffe-title{
+  background-color: #27272a;
+  font-family: "Scarlet";
+  grid-column: 1;
+  border-radius: 20px;
+  width:auto;
+  height:auto;
+  color:red;
+  display:flex;
+  font-family: "MyFont";
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+}
+#menu-coffe{
+  background-color: red;
+  border-radius: 20px;
+  grid-column: 1;
+  display:flex;
+  justify-content:center;
+  width: auto;
+}
+ul{
+  list-style-type: disc;;
+  font-family:"Scarlet";
+  font-size:25px;
+  border-color: aqua;
+}
+li{
+  border-color:azure
+}
+#menu-cake-title{
+  background-color: #27272a;
+  font-family: "Scarlet";
+  grid-column: 2;
+  grid-row:1;
+  border-radius: 20px;
+  width: auto;
+  color:red;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+}
+#menu-cake{
+  background-color: red;
+  border-radius: 20px;
+  grid-column: 2;
+  display:flex;
+  justify-content:center;
+  width: auto;
+}
+.Contact{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  margin:25px;
+  background-color:red;
+  width: 25%;
+  height: 25%;
+  font-family:"Scarlet";
+  font-size: 35px;
+}
+#container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+#desc{
+  list-style-type: disc;
+}
+.Location{
+  flex-direction: column;
+  display:flex;
+  justify-content: flex-end;
+  margin:0;
+}
+.Loc-Title{
+  background-color:crimson;
+  display:flex;
+  justify-content: center;
+}
+.LocMap{
+  height:19.5em;
+}
