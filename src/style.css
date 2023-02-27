@@ -23,6 +23,11 @@ font-weight: bold;
 body, html {
     height: 100%;
   }
+  .button{
+    color: red;
+    border-radius: 50px;
+    background-color: darkslategrey;
+  }
     #sidenav {
       height: 100%; 
       width: 160px; 
