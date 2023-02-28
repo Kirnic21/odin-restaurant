@@ -30,7 +30,7 @@ body, html {
   }
     #sidenav {
       height: 100%; 
-      width: 160px; 
+      width: 140px; 
       position: fixed; 
       z-index: 1; 
       top: 0; 
@@ -100,6 +100,7 @@ body, html {
   display:flex;
   justify-content:center;
   width: auto;
+  margin-left:  100px;
 }
 ul{
   list-style-type: disc;;
